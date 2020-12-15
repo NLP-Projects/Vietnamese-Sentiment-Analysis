@@ -1,5 +1,5 @@
 # PROGRAMMING ASSIGNMENT 4: SENTIMENT ANALYSIS FOR VIETNAMESE LANGUAGE
-Sentiment Analysis for Vietnamese Language
+## Sentiment Analysis for Vietnamese Language
 1. Introduction
 With the development of technology and the Internet, different types of social media such as social networks and forums have allowed people to not only share information but also to express their opinions and attitudes on products, services and other social issues. The Internet becomes a very valuable and important source of information. People nowadays use it as a reference to make their decisions on buying a product or using a service. Moreover, this kind of information also let the manufacturers and service providers receive feedback about limitations of their products and therefore should improving them to meet the customer needs better. Furthermore, it can also help authorities know the attitudes and opinions of their residents on social events so that they can make appropriate adjustments.
 
