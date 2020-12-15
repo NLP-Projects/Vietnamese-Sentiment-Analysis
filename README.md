@@ -1,8 +1,6 @@
 # PROGRAMMING ASSIGNMENT 4: Sentiment Analysis for Vietnamese Language
 Sentiment Analysis for Vietnamese Language
-
 1. Introduction
-
 With the development of technology and the Internet, different types of social media such as social networks and forums have allowed people to not only share information but also to express their opinions and attitudes on products, services and other social issues. The Internet becomes a very valuable and important source of information. People nowadays use it as a reference to make their decisions on buying a product or using a service. Moreover, this kind of information also let the manufacturers and service providers receive feedback about limitations of their products and therefore should improving them to meet the customer needs better. Furthermore, it can also help authorities know the attitudes and opinions of their residents on social events so that they can make appropriate adjustments.
 
 Since early 2000s, opinion mining and sentiment analysis have become a new and active research topic in Natural language processing and Data mining. The major tasks in this topic can be listed as follows:
@@ -17,11 +15,9 @@ Opinion mining in comparative sentences: This task focuses on mining opinions fr
 For Vietnamese language, so far there is no systematic comparison between the performance of Vietnamese sentiment analysis systems. The VLSP 2016 campaign, therefore, targets at providing an objective evaluation measurement about performance (quality) of sentiment analysis tools, and encouraging the development of Vietnamese sentiment analysis systems with high accuracy.
 
 2. Task Description
-
 The scope of the campaign this year is polarity classification, i.e., to evaluate the ability of classifying Vietnamese reviews/documents into one of three categories: “positive”, “negative”, or “neutral”. Other sentiment analysis tasks can be covered in the campaigns next years.
 
 3. Data
-
 A review can be very complex with different sentiments on various objects. Therefore, we set some constraints on the dataset as follows:
 
 The dataset only contains reviews having personal opinions.
