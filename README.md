@@ -77,3 +77,6 @@ Neu: Vậy là không hỗ trợ thẻ nhớ. Một điểm hơi lăn tăn.
 # Tham Khảo
 
 https://viblo.asia/p/phan-tich-phan-hoi-khach-hang-hieu-qua-voi-machine-learningvietnamese-sentiment-analysis-Eb85opXOK2G
+
+https://arxiv.org/ftp/arxiv/papers/1412/1412.8010.pdf
+
