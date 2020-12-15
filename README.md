@@ -7,10 +7,15 @@ Since early 2000s, opinion mining and sentiment analysis have become a new and a
 
 (+) Subjective classification: This is the task to detect that whether a document contains personal opinions or not (only provides facts).
 Polarity classification (Sentiment classification): The objective of this task is to classify the opinion of a document into one of three types, which are “positive”, “negative” and “neutral”.
+
 (+) Spam detection: The goal of this task is to detect fake reviews and reviewers.
+
 (+) Rating: Rating the documents having personal opinions from 1 star to 5 star (very negative to very positive).
+
 Besides these common tasks, recently there are some other important tasks:
+
 (+) Aspect-based sentiment analysis: The goal is to identify the aspects of given target entities and the sentiment expressed for each aspect.
+
 (+) Opinion mining in comparative sentences: This task focuses on mining opinions from comparative sentences, i.e., to identify entities to be compared and determine which entities are preferred by the author in a comparative sentence.
 
 For Vietnamese language, so far there is no systematic comparison between the performance of Vietnamese sentiment analysis systems. The VLSP 2016 campaign, therefore, targets at providing an objective evaluation measurement about performance (quality) of sentiment analysis tools, and encouraging the development of Vietnamese sentiment analysis systems with high accuracy.
