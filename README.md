@@ -39,19 +39,19 @@ This task is polarity classification, i.e., to evaluate the ability of classifyi
 ### 3. Data for Training and Testing
 A review can be very complex with different sentiments on various objects. Therefore, we set some constraints on the dataset as follows:
 
-The dataset only contains reviews having personal opinions.
-The data are usually short comments, containing opinions on one object. There is no limitation on the number of the object's aspects mentioned in the comment.
+- The dataset only contains reviews having personal opinions.
 
-Label (positive/negative/neutral) is the overall sentiment of the whole review.
-The dataset contains only real data collected from social media, not artificially created by human.
-Note: Normally, it is very difficult to rate a neutral comment because the opinions are always inclinable to be negative or positive.
+- The data are usually short comments, containing opinions on one object. There is no limitation on the number of the object's aspects mentioned in the comment.
 
-We usually rate a review be neutral when we cannot decide whether it is positive or negative.
-The neutral label can be used for the situations in which a review contains both positive and negative opinions but when combining them, the comment becomes neutral.
+- Label (positive/negative/neutral) is the overall sentiment of the whole review.
 
-#### Some examples of data:
+- The dataset contains only real data collected from social media, not artificially created by human.
 
-##### Lable : Review
+Note: Normally, it is very difficult to rate a neutral comment because the opinions are always inclinable to be negative or positive. A review is rated to be neutral when we cannot decide whether it is positive or negative. The neutral label can be used for the situations in which a review contains both positive and negative opinions but when combining them, the comment becomes neutral.
+
+#### Some examples of the dataset:
+
+##### Label : Review
 
 Pos: Đẳng cấp Philips, máy đẹp, pin bền. Đóng và giao hàng rất chuyên nghiệp.
 
@@ -70,6 +70,7 @@ Neg: Máy hay đơ màn hình, màn hình không nhạy dưới bên phải các
 
 Neg: Mình trả cách đây gần 1 tháng rồi.
 
+
 Neu: Pin khá hơn tí thì tốt nhỉ.
 
 Neu: Đẹp thật, tiếc là ram và pin chưa ngon.
@@ -82,4 +83,5 @@ Neu: Vậy là không hỗ trợ thẻ nhớ. Một điểm hơi lăn tăn.
 https://viblo.asia/p/phan-tich-phan-hoi-khach-hang-hieu-qua-voi-machine-learningvietnamese-sentiment-analysis-Eb85opXOK2G
 
 https://arxiv.org/ftp/arxiv/papers/1412/1412.8010.pdf
+
 
