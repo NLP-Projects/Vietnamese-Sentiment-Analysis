@@ -23,6 +23,7 @@ A review can be very complex with different sentiments on various objects. There
 
 The dataset only contains reviews having personal opinions.
 The data are usually short comments, containing opinions on one object. There is no limitation on the number of the object's aspects mentioned in the comment.
+
 Label (positive/negative/neutral) is the overall sentiment of the whole review.
 The dataset contains only real data collected from social media, not artificially created by human.
 Note: Normally, it is very difficult to rate a neutral comment because the opinions are always inclinable to be negative or positive.
@@ -31,17 +32,25 @@ We usually rate a review be neutral when we cannot decide whether it is positive
 The neutral label can be used for the situations in which a review contains both positive and negative opinions but when combining them, the comment becomes neutral.
 Some examples of data:
 
-Pos: Đẳng cấp Philips, máy đẹp, pin bền. Đóng và giao hàng rất chuyên nghiệp
-Pos: Tốt Giá vừa túi tiền đẹp và sang
-Pos: Rẻ hơn Samsung J1 nhưng cấu hình lại tốt hơn
-Pos: lướt web nhanh,chụp hình rõ nét, âm thanh ngoài trung bình rất xứng đáng với giá bán hiện giờ. pin đang trãi nghiệm (do mới sạc lần đầu)
+Pos: Đẳng cấp Philips, máy đẹp, pin bền. Đóng và giao hàng rất chuyên nghiệp.
+
+Pos: Tốt Giá vừa túi tiền đẹp và sang.
+
+Pos: Rẻ hơn Samsung J1 nhưng cấu hình lại tốt hơn.
+
+Pos: lướt web nhanh,chụp hình rõ nét, âm thanh ngoài trung bình rất xứng đáng với giá bán hiện giờ. pin đang trãi nghiệm (do mới sạc lần đầu).
 
  
 Neg: Lâu lâu bị lỗi, màn hình cảm ứng không nhạy, chất lượng camera kém.
-Neg: pin nhanh tụt, chỉ được xài 1 ngày.
-Neg: Máy hay đơ màn hình, màn hình không nhạy dưới bên phải các phím M, N
-Neg: Mình trả cách đây gần 1 tháng rồi
 
-Neu: Pin khá hơn tí thì tốt nhỉ
+Neg: pin nhanh tụt, chỉ được xài 1 ngày.
+
+Neg: Máy hay đơ màn hình, màn hình không nhạy dưới bên phải các phím M, N.
+
+Neg: Mình trả cách đây gần 1 tháng rồi.
+
+Neu: Pin khá hơn tí thì tốt nhỉ.
+
 Neu: Đẹp thật, tiếc là ram và pin chưa ngon.
+
 Neu: Vậy là không hỗ trợ thẻ nhớ. Một điểm hơi lăn tăn.
