@@ -9,7 +9,10 @@ Since early 2000s, opinion mining and sentiment analysis have become a new and a
 #### (+) Subjective classification: 
 
 This is the task to detect that whether a document contains personal opinions or not (only provides facts).
-Polarity classification (Sentiment classification): The objective of this task is to classify the opinion of a document into one of three types, which are “positive”, “negative” and “neutral”.
+
+#### (+) Polarity classification (Sentiment classification): 
+
+The objective of this task is to classify the opinion of a document into one of three types, which are “positive”, “negative” and “neutral”.
 
 #### (+) Spam detection: 
 
@@ -29,13 +32,11 @@ The goal is to identify the aspects of given target entities and the sentiment e
 
 This task focuses on mining opinions from comparative sentences, i.e., to identify entities to be compared and determine which entities are preferred by the author in a comparative sentence.
 
-For Vietnamese language, so far there is no systematic comparison between the performance of Vietnamese sentiment analysis systems. The VLSP 2016 campaign, therefore, targets at providing an objective evaluation measurement about performance (quality) of sentiment analysis tools, and encouraging the development of Vietnamese sentiment analysis systems with high accuracy.
-
 ### 2. Task Description
 
-The scope of the campaign this year is polarity classification, i.e., to evaluate the ability of classifying Vietnamese reviews/documents into one of three categories: “positive”, “negative”, or “neutral”. Other sentiment analysis tasks can be covered in the campaigns next years.
+This task is polarity classification, i.e., to evaluate the ability of classifying Vietnamese reviews/documents into one of three categories: “positive”, “negative”, or “neutral”.  
 
-### 3. Data
+### 3. Data for Training and Testing
 A review can be very complex with different sentiments on various objects. Therefore, we set some constraints on the dataset as follows:
 
 The dataset only contains reviews having personal opinions.
@@ -49,6 +50,8 @@ We usually rate a review be neutral when we cannot decide whether it is positive
 The neutral label can be used for the situations in which a review contains both positive and negative opinions but when combining them, the comment becomes neutral.
 
 #### Some examples of data:
+
+##### Lable : Review
 
 Pos: Đẳng cấp Philips, máy đẹp, pin bền. Đóng và giao hàng rất chuyên nghiệp.
 
