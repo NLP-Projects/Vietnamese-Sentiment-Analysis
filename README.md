@@ -78,6 +78,10 @@ Neu: Đẹp thật, tiếc là ram và pin chưa ngon.
 Neu: Vậy là không hỗ trợ thẻ nhớ. Một điểm hơi lăn tăn.
 
 
+# Long Short-Term Memory with PyTorch
+https://blog.floydhub.com/long-short-term-memory-from-zero-to-hero-with-pytorch/
+
+
 # Tham Khảo
 
 https://viblo.asia/p/phan-tich-phan-hoi-khach-hang-hieu-qua-voi-machine-learningvietnamese-sentiment-analysis-Eb85opXOK2G
