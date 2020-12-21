@@ -94,14 +94,14 @@ https://www.kaggle.com/arunmohan003/sentiment-analysis-using-lstm-pytorch
 
 An example:
 
-import torch 
-import torch.nn as nn
-import torchvision
-import torchvision.transforms as transforms
+ import torch 
+ import torch.nn as nn
+ import torchvision
+ import torchvision.transforms as transforms
 
 
-# Device configuration
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+ # Device configuration
+ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Hyper-parameters
 sequence_length = 28
