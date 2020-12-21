@@ -93,7 +93,7 @@ https://blog.floydhub.com/long-short-term-memory-from-zero-to-hero-with-pytorch/
 https://www.kaggle.com/arunmohan003/sentiment-analysis-using-lstm-pytorch
 
 
-# Tham Khảo
+# References
 
 https://viblo.asia/p/phan-tich-phan-hoi-khach-hang-hieu-qua-voi-machine-learningvietnamese-sentiment-analysis-Eb85opXOK2G
 
