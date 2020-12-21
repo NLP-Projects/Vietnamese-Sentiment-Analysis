@@ -91,12 +91,7 @@ https://blog.floydhub.com/long-short-term-memory-from-zero-to-hero-with-pytorch/
 # Sentiment analysis using LSTM - PyTorch
 
 https://www.kaggle.com/arunmohan003/sentiment-analysis-using-lstm-pytorch
-'''
-import torch 
-import torch.nn as nn
-import torchvision
-import torchvision.transforms as transforms
-'''
+
 
 # References
 
