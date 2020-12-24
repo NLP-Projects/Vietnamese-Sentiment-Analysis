@@ -149,6 +149,9 @@ Using models including LSTM, CNN, Multilayer Perceptron. Exploiting word embeddi
 An overview of application of deep learning for sentiment analysis
 ![picture](https://github.com/NLP-Projects/Vietnamese-Sentiment-Analysis/blob/main/SA.png)
 
+several neural network types using for the sentiment analysis problem:
+![picture](https://github.com/NLP-Projects/Vietnamese-Sentiment-Analysis/blob/main/Network.png)
+
 ### 6. Fundamentals of Deep Learning
 
 http://perso.ens-lyon.fr/jacques.jayez/Cours/Implicite/Fundamentals_of_Deep_Learning.pdf
