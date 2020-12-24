@@ -1,7 +1,7 @@
 # PROGRAMMING ASSIGNMENT 4: SENTIMENT ANALYSIS FOR VIETNAMESE LANGUAGE
 ## Sentiment Analysis for Vietnamese Language
+![alt](http://http://mikemclin.net/mmwp/wp-content/uploads/2013/03/markdown-syntax-language.png)
 
-[Markdown](http://https://vi.wikipedia.org/wiki/Markdown)
 
 ### 1. Introduction
 
