@@ -36,7 +36,7 @@ This task focuses on mining opinions from comparative sentences, i.e., to identi
 
 ##### This task is polarity classification, i.e., to evaluate the ability of classifying Vietnamese reviews/documents into one of three categories: “positive”, “negative”, or “neutral”.
 
-*** Students can choose machine learning or deep learning approaches for this task. Encourage students to choose the Deep Learning approach to solve this task, using modern neural network architecture such as LSTM.***
+##### Students can choose machine learning or deep learning approaches for this task. Encourage students to choose the Deep Learning approach to solve this task, using modern neural network architecture such as LSTM.
 
 ### 3. Data for Training and Testing
 A review can be very complex with different sentiments on various objects. Therefore, we set some constraints on the dataset as follows:
