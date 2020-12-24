@@ -140,7 +140,7 @@ F1 = 2*(1/(1/Precision + 1/Recall))
 https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html
 
 
-# Approaches for sentiment analysis
+# Approaches for sentiment analysis problem
 
 ##### Students can choose to approach machine learing or deep learing for this task. Encourage students to choose to approach Deep Learning, using modern neural network architecture such as LSTM.
 
@@ -193,7 +193,7 @@ https://blog.floydhub.com/long-short-term-memory-from-zero-to-hero-with-pytorch/
 https://www.kaggle.com/arunmohan003/sentiment-analysis-using-lstm-pytorch
 
 
-# References
+# References 
 
 https://viblo.asia/p/phan-tich-phan-hoi-khach-hang-hieu-qua-voi-machine-learningvietnamese-sentiment-analysis-Eb85opXOK2G
 
