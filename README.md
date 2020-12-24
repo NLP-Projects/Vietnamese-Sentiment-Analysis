@@ -77,6 +77,42 @@ Neu: Đẹp thật, tiếc là ram và pin chưa ngon.
 
 Neu: Vậy là không hỗ trợ thẻ nhớ. Một điểm hơi lăn tăn.
 
+#### Model evaluation metrics
+
+Predicted: Outcome of the model on the validation set.
+
+Actual: Values seen in the training set.
+
+Positive (P): Observation is positive.
+
+Negative (N): Observation is not positive. 
+
+True Positive (TP): Observation is positive, and is predicted correctly.
+
+False Negative (FN): Observation is positive, but predicted wrongly.
+
+True Negative (TN): Observation is negative, and predicted correctly.
+
+False Positive (FP): Observation is negative, but predicted wrongly.
+
+1. Confusion Matrix
+
+Also known as an Error Matrix, the Confusion Matrix is a two-dimensional matrix that allows visualization of the algorithm’s performance. While this isn’t an actual metric to use for evaluation, it’s an important starting point.
+
+Predictions are highlighted and divided by class (true/false), before being compared with the actual values. The matrix’s size is compatible with the amount of classes in the label column. In a binary classification, the matrix will be 2X2. If there are 3 classes, the matrix will be 3X3, and so on.
+
+This matrix essentially helps you determine if the classification model is optimized. It shows what errors are being made and helps to determine their exact type. Besides machine learning, the Confusion Matrix is also used in the fields of statistics, data mining, and artificial intelligence. 
+
+2. Accuracy
+A classification model’s accuracy is defined as the percentage of predictions it got right. However, it’s important to understand that it becomes less reliable when the probability of one outcome is significantly higher than the other one, making it less ideal as a stand-alone metric.
+
+For example, if you have a dataset where 5% of all incoming emails are actually spam, we can adopt a less sophisticated model (predicting every email as non-spam) and get an impressive accuracy score of 95%. Unfortunately, most scenarios are significantly harder to predict.
+
+The expression used to calculate accuracy is as follows:
+
+Accuracy = TP + TN / TP + TN + FP + FN 
+
+
 # Fundamentals of Deep Learning
 
 http://perso.ens-lyon.fr/jacques.jayez/Cours/Implicite/Fundamentals_of_Deep_Learning.pdf
