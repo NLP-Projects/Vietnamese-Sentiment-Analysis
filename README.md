@@ -95,7 +95,7 @@ True Negative (TN): Observation is negative, and predicted correctly.
 
 False Positive (FP): Observation is negative, but predicted wrongly.
 
-##### Accuracy
+##### Accuracy Score
 
 A classification model’s accuracy is defined as the percentage of predictions it got right. However, it’s important to understand that it becomes less reliable when the probability of one outcome is significantly higher than the other one, making it less ideal as a stand-alone metric.
 
@@ -138,7 +138,7 @@ sensitivity to changes in topic domain.
 
 LIMITATIONS: noisy reviews.
 
-##### Deep Learning: 
+##### Deep Learning-Based: 
 
 Using models including LSTM, CNN, Multilayer Perceptron. Exploiting word embeddings models including Word2Vec, GloVe, fastText, Bert.
 
