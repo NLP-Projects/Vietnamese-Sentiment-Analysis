@@ -127,7 +127,7 @@ Recall = TP / TP + FN
 
 #####  F1 score
 
-The F1 score is basically the harmonic mean between precision and recall. It is used to measure the accuracy of tests and is a direct indication of the model’s performance. The range of the F1 score is between 0 to 1, with the goal being to get as close as possible to 1. 
+The F1 score is basically the harmonic mean between precision and recall. It is used to measure the accuracy of tests and is a direct indication of the model’s performance. The range of the F1 score is between 0 to 1, with the goal being to get as close as possible to 1. It is calculated as follows:
 
 F1 = 2*(1/(1/Precision + 1/Recall))
 
