@@ -114,9 +114,9 @@ https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score
 
 ### 5. Approaches for sentiment analysis problem
 
-#### Several typical approaches for the sentiment analysis problem are as follows: 
+### Several typical approaches for the sentiment analysis problem are as follows: 
 
-##### (+) Bayesian Networks Naive Bayes Classification Maximum Entropy Neural Networks Support Vector Machine.
+#### (+) Bayesian Networks Naive Bayes Classification Maximum Entropy Neural Networks Support Vector Machine.
 
  FEATURES/TECNIQUES: Term presence and frequency; Part of speech information; Negations; Opinion words and phrases.
  
@@ -124,7 +124,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score
  
  LIMITATIONS: the low applicability to new data because it is necessary the availability of labeled data that could be costly or even prohibitive
 
-##### (+) Dictionary based approach Novel Machine Learning Approach Corpus based approach Ensemble Approaches. 
+#### (+) Dictionary based approach Novel Machine Learning Approach Corpus based approach Ensemble Approaches. 
 
  FEATURES/TECNIQUES: Manual construction; Corpus-based; Dictionary-based. 
  
@@ -132,7 +132,7 @@ ADVANTAGES: wider term coverage.
 
 LIMITATIONS: finite number of words in the lexicons and the assignation of a fixed sentiment orientation and score to words(+) Machine learning Lexicon based.
 
-##### (+) Machine learning Lexicon based.
+#### (+) Machine learning Lexicon based.
 
  FEATURES/TECNIQUES: Sentiment lexicon constructed using public resources for initial sentiment detection; Sentiment words as
 features in machine learning method.
@@ -142,7 +142,7 @@ sensitivity to changes in topic domain.
 
 LIMITATIONS: noisy reviews.
 
-##### Deep Learning-Based: 
+#### (+) Deep Learning-Based: 
 
 Using models including LSTM, CNN, Multilayer Perceptron. Exploiting word embeddings models including Word2Vec, GloVe, fastText, Bert.
 
