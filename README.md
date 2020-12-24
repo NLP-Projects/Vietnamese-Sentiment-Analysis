@@ -43,13 +43,13 @@ This task focuses on mining opinions from comparative sentences, i.e., to identi
 ### 3. Data for Training and Testing
 A review can be very complex with different sentiments on various objects. Therefore, we set some constraints on the dataset as follows:
 
-* item  - The dataset only contains reviews having personal opinions.
+*  The dataset only contains reviews having personal opinions.
 
-* item  - The data are usually short comments, containing opinions on one object. There is no limitation on the number of the object's aspects mentioned in the comment.
+*  The data are usually short comments, containing opinions on one object. There is no limitation on the number of the object's aspects mentioned in the comment.
 
-* item  - Label (positive/negative/neutral) is the overall sentiment of the whole review.
+*  Label (positive/negative/neutral) is the overall sentiment of the whole review.
 
-* item  - The dataset contains only real data collected from social media, not artificially created by human.
+*  The dataset contains only real data collected from social media, not artificially created by human.
 
 Note: Normally, it is very difficult to rate a neutral comment because the opinions are always inclinable to be negative or positive. A review is rated to be neutral when we cannot decide whether it is positive or negative. The neutral label can be used for the situations in which a review contains both positive and negative opinions but when combining them, the comment becomes neutral.
 
@@ -57,45 +57,45 @@ Note: Normally, it is very difficult to rate a neutral comment because the opini
 
 ##### Label : Review
 
-Pos: Đẳng cấp Philips, máy đẹp, pin bền. Đóng và giao hàng rất chuyên nghiệp.
+* Pos: Đẳng cấp Philips, máy đẹp, pin bền. Đóng và giao hàng rất chuyên nghiệp.
 
-Pos: Tốt Giá vừa túi tiền đẹp và sang.
+* Pos: Tốt Giá vừa túi tiền đẹp và sang.
 
-Pos: Rẻ hơn Samsung J1 nhưng cấu hình lại tốt hơn.
+* Pos: Rẻ hơn Samsung J1 nhưng cấu hình lại tốt hơn.
 
-Pos: lướt web nhanh,chụp hình rõ nét, âm thanh ngoài trung bình rất xứng đáng với giá bán hiện giờ. pin đang trãi nghiệm (do mới sạc lần đầu).
+* Pos: lướt web nhanh,chụp hình rõ nét, âm thanh ngoài trung bình rất xứng đáng với giá bán hiện giờ. pin đang trãi nghiệm (do mới sạc lần đầu).
 
  
-Neg: Lâu lâu bị lỗi, màn hình cảm ứng không nhạy, chất lượng camera kém.
+* Neg: Lâu lâu bị lỗi, màn hình cảm ứng không nhạy, chất lượng camera kém.
 
-Neg: pin nhanh tụt, chỉ được xài 1 ngày.
+* Neg: pin nhanh tụt, chỉ được xài 1 ngày.
 
-Neg: Máy hay đơ màn hình, màn hình không nhạy dưới bên phải các phím M, N.
+* Neg: Máy hay đơ màn hình, màn hình không nhạy dưới bên phải các phím M, N.
 
-Neg: Mình trả cách đây gần 1 tháng rồi.
+* Neg: Mình trả cách đây gần 1 tháng rồi.
 
 
-Neu: Pin khá hơn tí thì tốt nhỉ.
+* Neu: Pin khá hơn tí thì tốt nhỉ.
 
-Neu: Đẹp thật, tiếc là ram và pin chưa ngon.
+* Neu: Đẹp thật, tiếc là ram và pin chưa ngon.
 
-Neu: Vậy là không hỗ trợ thẻ nhớ. Một điểm hơi lăn tăn.
+* Neu: Vậy là không hỗ trợ thẻ nhớ. Một điểm hơi lăn tăn.
 
 ### 4. Model evaluation metrics
 
-Predicted: Outcome of the model on the validation set.
+* Predicted: Outcome of the model on the validation set.
 
-Positive (P): Observation is positive.
+* Positive (P): Observation is positive.
 
-Negative (N): Observation is not positive. 
+* Negative (N): Observation is not positive. 
 
-True Positive (TP): Observation is positive, and is predicted correctly.
+* True Positive (TP): Observation is positive, and is predicted correctly.
 
-False Negative (FN): Observation is positive, but predicted wrongly.
+* False Negative (FN): Observation is positive, but predicted wrongly.
 
-True Negative (TN): Observation is negative, and predicted correctly.
+* True Negative (TN): Observation is negative, and predicted correctly.
 
-False Positive (FP): Observation is negative, but predicted wrongly.
+* False Positive (FP): Observation is negative, but predicted wrongly.
 
 ##### Accuracy Score
 
@@ -162,18 +162,18 @@ https://www.kaggle.com/arunmohan003/sentiment-analysis-using-lstm-pytorch
 
 ### 7. Resources
 
-(+) pre-trained word embeddings: https://drive.google.com/open?id=1z1IDKaZuJXw5g7Yebr1GDq2UfvVR_aGx
+*  pre-trained word embeddings: https://drive.google.com/open?id=1z1IDKaZuJXw5g7Yebr1GDq2UfvVR_aGx
 
-(+) Vietnamese SentiWordNet.
+*  Vietnamese SentiWordNet.
 
-(+) Code example (Code folder).
+*  Code example (Code folder).
 
 ### 8. References 
 
-https://viblo.asia/p/phan-tich-phan-hoi-khach-hang-hieu-qua-voi-machine-learningvietnamese-sentiment-analysis-Eb85opXOK2G
+[1]. https://viblo.asia/p/phan-tich-phan-hoi-khach-hang-hieu-qua-voi-machine-learningvietnamese-sentiment-analysis-Eb85opXOK2G
 
-https://arxiv.org/ftp/arxiv/papers/1412/1412.8010.pdf
+[2]. https://arxiv.org/ftp/arxiv/papers/1412/1412.8010.pdf
 
-Reference folder.
+[3]. Reference folder.
 
 
