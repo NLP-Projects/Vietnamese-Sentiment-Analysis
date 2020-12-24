@@ -1,7 +1,6 @@
 # PROGRAMMING ASSIGNMENT 4: SENTIMENT ANALYSIS FOR VIETNAMESE LANGUAGE
-## Sentiment Analysis for Vietnamese Language
-![alt](https://www.google.com.vn/url?sa=i&url=https%3A%2F%2Fvi.wikipedia.org%2Fwiki%2FB%25E1%25BB%2599_nh%25E1%25BB%259B_d%25C3%25A0i-ng%25E1%25BA%25AFn_h%25E1%25BA%25A1n&psig=AOvVaw2hTLf9dXiE1Cs4ZeDfPCUs&ust=1608903663603000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKilza3f5u0CFQAAAAAdAAAAABAD)
 
+## Sentiment Analysis for Vietnamese Language
 
 ### 1. Introduction
 
