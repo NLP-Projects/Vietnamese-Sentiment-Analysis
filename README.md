@@ -157,6 +157,10 @@ http://faculty.neu.edu.cn/yury/AAI/Textbook/Deep%20Learning%20with%20Python.pdf
 
 
 #### Long Short-Term Memory with PyTorch
+
+The structure of the Long Short-Term Memory
+![picture](https://github.com/NLP-Projects/Vietnamese-Sentiment-Analysis/blob/main/LSTM.png)
+
 https://blog.floydhub.com/long-short-term-memory-from-zero-to-hero-with-pytorch/
 
 
