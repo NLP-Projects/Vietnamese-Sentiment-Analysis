@@ -65,6 +65,7 @@ Note: Normally, it is very difficult to rate a neutral comment because the opini
 
 * Pos: lướt web nhanh,chụp hình rõ nét, âm thanh ngoài trung bình rất xứng đáng với giá bán hiện giờ. pin đang trãi nghiệm (do mới sạc lần đầu).
 
+***
  
 * Neg: Lâu lâu bị lỗi, màn hình cảm ứng không nhạy, chất lượng camera kém.
 
@@ -74,6 +75,7 @@ Note: Normally, it is very difficult to rate a neutral comment because the opini
 
 * Neg: Mình trả cách đây gần 1 tháng rồi.
 
+***
 
 * Neu: Pin khá hơn tí thì tốt nhỉ.
 
