@@ -139,6 +139,44 @@ F1 = 2*(1/(1/Precision + 1/Recall))
 
 https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html
 
+
+# Approaches for sentiment analysis
+
+##### Students can choose to approach machine learing or deep learing for this task. Encourage students to choose to approach Deep Learning, using modern neural network architecture such as LSTM.
+
+Several typical approaches for the sentiment analysis problem are as follows: 
+
+##### (+) Bayesian Networks Naive Bayes Classification Maximum Entropy Neural Networks Support Vector Machine.
+
+ FEATURES/TECNIQUES: Term presence and frequency; Part of speech information; Negations; Opinion words and phrases.
+ 
+ ADVANTAGES: the ability to adapt and create trained models for specific purposes and contexts.
+ 
+ LIMITATIONS: the low applicability to new data because it is necessary the availability of labeled data that could be costly or even prohibitive
+
+##### (+) Dictionary based approach Novel Machine Learning Approach Corpus based approach Ensemble Approaches. 
+
+ FEATURES/TECNIQUES: Manual construction; Corpus-based; Dictionary-based. 
+ 
+ADVANTAGES: wider term coverage.
+
+LIMITATIONS: finite number of words in the lexicons and the assignation of a fixed sentiment orientation and score to words(+) Machine learning Lexicon based.
+
+##### (+) Machine learning Lexicon based.
+
+ FEATURES/TECNIQUES: Sentiment lexicon constructed using public resources for initial sentiment detection; Sentiment words as
+features in machine learning method.
+
+ADVANTAGES: lexicon/learning symbiosis, the detection and measurement of sentiment at the concept level and the lesser
+sensitivity to changes in topic domain.
+
+LIMITATIONS: noisy reviews.
+
+##### Deep Learning: 
+
+Using models including LSTM, CNN, Multilayer Perceptron. Exploiting word embeddings models including Word2Vec, GloVe, fastText, Bert.
+
+
 # Fundamentals of Deep Learning
 
 http://perso.ens-lyon.fr/jacques.jayez/Cours/Implicite/Fundamentals_of_Deep_Learning.pdf
