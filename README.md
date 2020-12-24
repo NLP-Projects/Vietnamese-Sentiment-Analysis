@@ -36,6 +36,8 @@ This task focuses on mining opinions from comparative sentences, i.e., to identi
 
 ### 2. Task Description
 
+![picture](https://github.com/NLP-Projects/Vietnamese-Sentiment-Analysis/blob/main/SA.png)
+
 ##### This task is polarity classification, i.e., to evaluate the ability of classifying Vietnamese reviews/documents into one of three categories: “positive”, “negative”, or “neutral”.
 
 ##### Students can choose machine learning or deep learning approaches for this task. Encourage students to choose the Deep Learning approach to solve this task, using modern neural network architecture such as LSTM.
