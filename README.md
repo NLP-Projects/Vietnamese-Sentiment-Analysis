@@ -97,7 +97,7 @@ False Positive (FP): Observation is negative, but predicted wrongly.
 
 ##### Confusion Matrix
 
-Also known as an Error Matrix, the Confusion Matrix is a two-dimensional matrix that allows visualization of the algorithm’s performance. While this isn’t an actual metric to use for evaluation, it’s an important starting point.
+The Confusion Matrix is a two-dimensional matrix that allows visualization of the algorithm’s performance. While this isn’t an actual metric to use for evaluation, it’s an important starting point.
 
 Predictions are highlighted and divided by class (true/false), before being compared with the actual values. The matrix’s size is compatible with the amount of classes in the label column. In a binary classification, the matrix will be 2X2. If there are 3 classes, the matrix will be 3X3, and so on.
 
@@ -127,7 +127,7 @@ Recall = TP / TP + FN
 
 #####  F1 score
 
-The F1 score is basically the harmonic mean between precision and recall. It is used to measure the accuracy of tests and is a direct indication of the model’s performance. The range of the F1 score is between 0 to 1, with the goal being to get as close as possible to 1. It is calculated as per:
+The F1 score is basically the harmonic mean between precision and recall. It is used to measure the accuracy of tests and is a direct indication of the model’s performance. The range of the F1 score is between 0 to 1, with the goal being to get as close as possible to 1. 
 
 F1 = 2*(1/(1/Precision + 1/Recall))
 
