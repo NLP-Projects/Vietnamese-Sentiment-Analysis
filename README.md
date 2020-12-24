@@ -142,7 +142,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html
 
 # Approaches for sentiment analysis problem
 
-##### Students can choose to approach machine learing or deep learing for this task. Encourage students to choose to approach Deep Learning, using modern neural network architecture such as LSTM.
+##### Students can choose machine learning or deep learning approaches for this task. Encourage students to choose the Deep Learning approach to solve this task, using modern neural network architecture such as LSTM.
 
 Several typical approaches for the sentiment analysis problem are as follows: 
 
