@@ -34,7 +34,9 @@ This task focuses on mining opinions from comparative sentences, i.e., to identi
 
 ### 2. Task Description
 
-This task is polarity classification, i.e., to evaluate the ability of classifying Vietnamese reviews/documents into one of three categories: “positive”, “negative”, or “neutral”.  
+##### This task is polarity classification, i.e., to evaluate the ability of classifying Vietnamese reviews/documents into one of three categories: “positive”, “negative”, or “neutral”.
+
+##### Students can choose machine learning or deep learning approaches for this task. Encourage students to choose the Deep Learning approach to solve this task, using modern neural network architecture such as LSTM.
 
 ### 3. Data for Training and Testing
 A review can be very complex with different sentiments on various objects. Therefore, we set some constraints on the dataset as follows:
@@ -77,11 +79,9 @@ Neu: Đẹp thật, tiếc là ram và pin chưa ngon.
 
 Neu: Vậy là không hỗ trợ thẻ nhớ. Một điểm hơi lăn tăn.
 
-#### Model evaluation metrics
+### 4. Model evaluation metrics
 
 Predicted: Outcome of the model on the validation set.
-
-Actual: Values seen in the training set.
 
 Positive (P): Observation is positive.
 
@@ -95,14 +95,6 @@ True Negative (TN): Observation is negative, and predicted correctly.
 
 False Positive (FP): Observation is negative, but predicted wrongly.
 
-##### Confusion Matrix
-
-The Confusion Matrix is a two-dimensional matrix that allows visualization of the algorithm’s performance. While this isn’t an actual metric to use for evaluation, it’s an important starting point.
-
-Predictions are highlighted and divided by class (true/false), before being compared with the actual values. The matrix’s size is compatible with the amount of classes in the label column. In a binary classification, the matrix will be 2X2. If there are 3 classes, the matrix will be 3X3, and so on.
-
-This matrix essentially helps you determine if the classification model is optimized. It shows what errors are being made and helps to determine their exact type. Besides machine learning, the Confusion Matrix is also used in the fields of statistics, data mining, and artificial intelligence. 
-
 ##### Accuracy
 
 A classification model’s accuracy is defined as the percentage of predictions it got right. However, it’s important to understand that it becomes less reliable when the probability of one outcome is significantly higher than the other one, making it less ideal as a stand-alone metric.
@@ -115,36 +107,10 @@ Accuracy = TP + TN / TP + TN + FP + FN
 
 https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#:~:text=Accuracy%20classification%20score.,set%20of%20labels%20in%20y_true.&text=Otherwise%2C%20return%20the%20fraction%20of%20correctly%20classified%20samples.
 
-##### Precision
 
-This metric is the number of correct positive results divided by the number of positive results predicted by the classifier.
+### 5. Approaches for sentiment analysis problem
 
-Precision = TP / TP + FP
-
-https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html#:~:text=The%20precision%20is%20the%20ratio,the%20worst%20value%20is%200.&text=Ground%20truth%20(correct)%20target%20values.
-
-##### Recall
-
-Recall is the number of correct positive results divided by the number of all samples that should have been identified as positive.
-
-Recall = TP / TP + FN
-
-https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html#:~:text=The%20recall%20is%20the%20ratio,find%20all%20the%20positive%20samples.
-
-#####  F1 score
-
-The F1 score is basically the harmonic mean between precision and recall. It is used to measure the accuracy of tests and is a direct indication of the model’s performance. The range of the F1 score is between 0 to 1, with the goal being to get as close as possible to 1. It is calculated as follows:
-
-F1 = 2*(1/(1/Precision + 1/Recall))
-
-https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html
-
-
-# Approaches for sentiment analysis problem
-
-##### Students can choose machine learning or deep learning approaches for this task. Encourage students to choose the Deep Learning approach to solve this task, using modern neural network architecture such as LSTM.
-
-Several typical approaches for the sentiment analysis problem are as follows: 
+#### Several typical approaches for the sentiment analysis problem are as follows: 
 
 ##### (+) Bayesian Networks Naive Bayes Classification Maximum Entropy Neural Networks Support Vector Machine.
 
@@ -177,30 +143,33 @@ LIMITATIONS: noisy reviews.
 Using models including LSTM, CNN, Multilayer Perceptron. Exploiting word embeddings models including Word2Vec, GloVe, fastText, Bert.
 
 
-# Fundamentals of Deep Learning
+### 6. Fundamentals of Deep Learning
 
 http://perso.ens-lyon.fr/jacques.jayez/Cours/Implicite/Fundamentals_of_Deep_Learning.pdf
 
 http://faculty.neu.edu.cn/yury/AAI/Textbook/Deep%20Learning%20with%20Python.pdf
 
 
-# Long Short-Term Memory with PyTorch
+#### Long Short-Term Memory with PyTorch
 https://blog.floydhub.com/long-short-term-memory-from-zero-to-hero-with-pytorch/
 
 
-# Sentiment analysis using LSTM - PyTorch
+#### Sentiment analysis using LSTM - PyTorch
 
 https://www.kaggle.com/arunmohan003/sentiment-analysis-using-lstm-pytorch
 
+### 7. Resources
 
-# References 
+pre-trained word embeddings: https://drive.google.com/open?id=1z1IDKaZuJXw5g7Yebr1GDq2UfvVR_aGx
+
+Code folder.
+
+### 8. References 
 
 https://viblo.asia/p/phan-tich-phan-hoi-khach-hang-hieu-qua-voi-machine-learningvietnamese-sentiment-analysis-Eb85opXOK2G
 
 https://arxiv.org/ftp/arxiv/papers/1412/1412.8010.pdf
 
-pre-trained word embeddings: https://drive.google.com/open?id=1z1IDKaZuJXw5g7Yebr1GDq2UfvVR_aGx
-
 Reference folder.
 
-Code folder.
+
