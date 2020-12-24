@@ -154,6 +154,8 @@ https://viblo.asia/p/phan-tich-phan-hoi-khach-hang-hieu-qua-voi-machine-learning
 
 https://arxiv.org/ftp/arxiv/papers/1412/1412.8010.pdf
 
+pre-trained word embeddings: https://drive.google.com/open?id=1z1IDKaZuJXw5g7Yebr1GDq2UfvVR_aGx
+
 Reference folder.
 
 Code folder.
