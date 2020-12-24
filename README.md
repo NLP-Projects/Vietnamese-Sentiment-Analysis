@@ -43,13 +43,13 @@ This task focuses on mining opinions from comparative sentences, i.e., to identi
 ### 3. Data for Training and Testing
 A review can be very complex with different sentiments on various objects. Therefore, we set some constraints on the dataset as follows:
 
-item  - The dataset only contains reviews having personal opinions.
+* item  - The dataset only contains reviews having personal opinions.
 
-item  - The data are usually short comments, containing opinions on one object. There is no limitation on the number of the object's aspects mentioned in the comment.
+* item  - The data are usually short comments, containing opinions on one object. There is no limitation on the number of the object's aspects mentioned in the comment.
 
-item  - Label (positive/negative/neutral) is the overall sentiment of the whole review.
+* item  - Label (positive/negative/neutral) is the overall sentiment of the whole review.
 
-item  - The dataset contains only real data collected from social media, not artificially created by human.
+* item  - The dataset contains only real data collected from social media, not artificially created by human.
 
 Note: Normally, it is very difficult to rate a neutral comment because the opinions are always inclinable to be negative or positive. A review is rated to be neutral when we cannot decide whether it is positive or negative. The neutral label can be used for the situations in which a review contains both positive and negative opinions but when combining them, the comment becomes neutral.
 
