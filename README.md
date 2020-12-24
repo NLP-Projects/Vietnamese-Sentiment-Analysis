@@ -95,7 +95,7 @@ True Negative (TN): Observation is negative, and predicted correctly.
 
 False Positive (FP): Observation is negative, but predicted wrongly.
 
-1. Confusion Matrix
+##### Confusion Matrix
 
 Also known as an Error Matrix, the Confusion Matrix is a two-dimensional matrix that allows visualization of the algorithm’s performance. While this isn’t an actual metric to use for evaluation, it’s an important starting point.
 
@@ -103,7 +103,8 @@ Predictions are highlighted and divided by class (true/false), before being comp
 
 This matrix essentially helps you determine if the classification model is optimized. It shows what errors are being made and helps to determine their exact type. Besides machine learning, the Confusion Matrix is also used in the fields of statistics, data mining, and artificial intelligence. 
 
-2. Accuracy
+##### Accuracy
+
 A classification model’s accuracy is defined as the percentage of predictions it got right. However, it’s important to understand that it becomes less reliable when the probability of one outcome is significantly higher than the other one, making it less ideal as a stand-alone metric.
 
 For example, if you have a dataset where 5% of all incoming emails are actually spam, we can adopt a less sophisticated model (predicting every email as non-spam) and get an impressive accuracy score of 95%. Unfortunately, most scenarios are significantly harder to predict.
@@ -111,6 +112,24 @@ For example, if you have a dataset where 5% of all incoming emails are actually 
 The expression used to calculate accuracy is as follows:
 
 Accuracy = TP + TN / TP + TN + FP + FN 
+
+##### Precision
+
+This metric is the number of correct positive results divided by the number of positive results predicted by the classifier.
+
+Precision = TP / TP + FP
+
+##### Recall
+
+Recall is the number of correct positive results divided by the number of all samples that should have been identified as positive.
+
+Recall = TP / TP + FN
+
+#####  F1 score
+
+The F1 score is basically the harmonic mean between precision and recall. It is used to measure the accuracy of tests and is a direct indication of the model’s performance. The range of the F1 score is between 0 to 1, with the goal being to get as close as possible to 1. It is calculated as per:
+
+F1 = 2*(1/(1/Precision + 1/Recall))
 
 
 # Fundamentals of Deep Learning
