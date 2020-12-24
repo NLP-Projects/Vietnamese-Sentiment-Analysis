@@ -113,11 +113,15 @@ The expression used to calculate accuracy is as follows:
 
 Accuracy = TP + TN / TP + TN + FP + FN 
 
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#:~:text=Accuracy%20classification%20score.,set%20of%20labels%20in%20y_true.&text=Otherwise%2C%20return%20the%20fraction%20of%20correctly%20classified%20samples.
+
 ##### Precision
 
 This metric is the number of correct positive results divided by the number of positive results predicted by the classifier.
 
 Precision = TP / TP + FP
+
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html#:~:text=The%20precision%20is%20the%20ratio,the%20worst%20value%20is%200.&text=Ground%20truth%20(correct)%20target%20values.
 
 ##### Recall
 
@@ -125,12 +129,15 @@ Recall is the number of correct positive results divided by the number of all sa
 
 Recall = TP / TP + FN
 
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html#:~:text=The%20recall%20is%20the%20ratio,find%20all%20the%20positive%20samples.
+
 #####  F1 score
 
 The F1 score is basically the harmonic mean between precision and recall. It is used to measure the accuracy of tests and is a direct indication of the model’s performance. The range of the F1 score is between 0 to 1, with the goal being to get as close as possible to 1. It is calculated as follows:
 
 F1 = 2*(1/(1/Precision + 1/Recall))
 
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html
 
 # Fundamentals of Deep Learning
 
