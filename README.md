@@ -160,9 +160,11 @@ https://www.kaggle.com/arunmohan003/sentiment-analysis-using-lstm-pytorch
 
 ### 7. Resources
 
-pre-trained word embeddings: https://drive.google.com/open?id=1z1IDKaZuJXw5g7Yebr1GDq2UfvVR_aGx
+(+) pre-trained word embeddings: https://drive.google.com/open?id=1z1IDKaZuJXw5g7Yebr1GDq2UfvVR_aGx
 
-Code folder.
+(+) Vietnamese SentiWordNet.
+
+(+) Code example (Code folder).
 
 ### 8. References 
 
