@@ -93,7 +93,7 @@ For example, if you have a dataset where 5% of all incoming emails are actually 
 
 The expression used to calculate accuracy is as follows:
 
-Accuracy = TP + TN / TP + TN + FP + FN 
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
 
 https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#:~:text=Accuracy%20classification%20score.,set%20of%20labels%20in%20y_true.&text=Otherwise%2C%20return%20the%20fraction%20of%20correctly%20classified%20samples.
 
