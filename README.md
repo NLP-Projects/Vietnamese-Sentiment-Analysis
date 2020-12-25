@@ -85,7 +85,7 @@ Note: Normally, it is very difficult to rate a neutral comment because the opini
 
 ### 4. Model evaluation metrics
 
-##### Accuracy Score
+#### Use Accuracy Score to evaluate your model's performance
 
 Accuracy = The number of sentences correctly predicted by the model / The total number of sentences of the evaluation dataset.
 
