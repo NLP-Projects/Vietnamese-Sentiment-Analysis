@@ -87,11 +87,10 @@ Note: Normally, it is very difficult to rate a neutral comment because the opini
 
 ##### Accuracy Score
 
-A classification model’s accuracy is defined as the percentage of predictions it got right. However, it’s important to understand that it becomes less reliable when the probability of one outcome is significantly higher than the other one, making it less ideal as a stand-alone metric.
+A classification model’s accuracy is defined as the percentage of predictions it got right. However, it’s important to understand that it becomes less reliable when the probability of one outcome is significantly higher than the other one, making it less ideal as a stand-alone metric. The expression used to calculate accuracy is as follows:
 
-The expression used to calculate accuracy is as follows:
+Accuracy = The number of sentence correctly predicted by the model / The total number of sentence of the evaluation dataset.
 
-Accuracy = The number of samples correctly predicted by the model / The total number of samples of the evaluation dataset.
 
 https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#:~:text=Accuracy%20classification%20score.,set%20of%20labels%20in%20y_true.&text=Otherwise%2C%20return%20the%20fraction%20of%20correctly%20classified%20samples.
 
