@@ -91,7 +91,7 @@ A classification model’s accuracy is defined as the percentage of predictions 
 
 The expression used to calculate accuracy is as follows:
 
-Accuracy = (TP + TN) / (TP + TN + FP + FN)
+Accuracy = The number of samples correctly predicted by the model / The total number of samples of the evaluation dataset.
 
 https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#:~:text=Accuracy%20classification%20score.,set%20of%20labels%20in%20y_true.&text=Otherwise%2C%20return%20the%20fraction%20of%20correctly%20classified%20samples.
 
