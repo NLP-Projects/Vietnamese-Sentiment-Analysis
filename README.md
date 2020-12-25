@@ -161,7 +161,7 @@ https://www.kaggle.com/arunmohan003/sentiment-analysis-using-lstm-pytorch
 
 *  Vietnamese SentiWordNet.
 
-*  Code example (Code folder).
+*  Code example (Code folder). 
 
 ### 8. References 
 
