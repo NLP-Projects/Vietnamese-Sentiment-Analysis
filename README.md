@@ -85,20 +85,6 @@ Note: Normally, it is very difficult to rate a neutral comment because the opini
 
 ### 4. Model evaluation metrics
 
-* Predicted: Outcome of the model on the validation set.
-
-* Positive (P): Observation is positive.
-
-* Negative (N): Observation is not positive. 
-
-* True Positive (TP): Observation is positive, and is predicted correctly.
-
-* False Negative (FN): Observation is positive, but predicted wrongly.
-
-* True Negative (TN): Observation is negative, and predicted correctly.
-
-* False Positive (FP): Observation is negative, but predicted wrongly.
-
 ##### Accuracy Score
 
 A classification model’s accuracy is defined as the percentage of predictions it got right. However, it’s important to understand that it becomes less reliable when the probability of one outcome is significantly higher than the other one, making it less ideal as a stand-alone metric.
