@@ -89,8 +89,6 @@ Note: Normally, it is very difficult to rate a neutral comment because the opini
 
 A classification model’s accuracy is defined as the percentage of predictions it got right. However, it’s important to understand that it becomes less reliable when the probability of one outcome is significantly higher than the other one, making it less ideal as a stand-alone metric.
 
-For example, if you have a dataset where 5% of all incoming emails are actually spam, we can adopt a less sophisticated model (predicting every email as non-spam) and get an impressive accuracy score of 95%. Unfortunately, most scenarios are significantly harder to predict.
-
 The expression used to calculate accuracy is as follows:
 
 Accuracy = (TP + TN) / (TP + TN + FP + FN)
